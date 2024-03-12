@@ -11,7 +11,7 @@ const mailSender = async (email, title, body) => {
       secure:true,
       auth:{
           user:'akrrajput1@gmail.com',
-          pass: 'iwks vfvh lkox ohiw',
+          pass: 'koba ypil njjk mjjb',
       },
   });
 
