@@ -198,7 +198,7 @@ function CourseDetails() {
                 Rs. {price}
               </p>
               <button className="yellowButton" onClick={
-                user && course?.studentEnrolled.includes(user?._id)
+                user && response.data.courseDetails?.studentEnrolled.includes(user?._id)
                   ? () => navigate("/dashboard/enrolled-courses")
                   : handleBuyCourse
               }>
